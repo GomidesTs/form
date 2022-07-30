@@ -1,0 +1,166 @@
+/* Style */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Colors */
+.text-main {
+  color: #ffffff;
+}
+
+.emphasis {
+  background: #f67669;
+}
+
+/* Typography */
+.uppercase {
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+legend {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #253b51;
+}
+
+label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4958;
+}
+
+/* Spaces */
+.m-center {
+  margin: auto;
+}
+
+.gap {
+  gap: 22px;
+}
+
+.p-t1 {
+  padding-bottom: 8px;
+}
+
+.p-t2 {
+  padding-bottom: 32px;
+}
+
+.p-t3 {
+  padding-top: 32px;
+}
+
+body {
+  background: #bfd7e4;
+}
+
+body::before {
+  content: "";
+  background: #293241;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+fieldset {
+  border: none;
+  width: 750px;
+}
+
+legend {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 133px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  -webkit-box-shadow: 0px 67px 500px #00000007, 0px 30.0483px 263.784px #0000000b, 0px 17.3412px 194.215px #0000000e, 0px 10.5281px 148.994px #0000000f, 0px 6.08298px 105.29px #00000011, 0px 2.76054px 56.3879px #00000012;
+          box-shadow: 0px 67px 500px #00000007, 0px 30.0483px 263.784px #0000000b, 0px 17.3412px 194.215px #0000000e, 0px 10.5281px 148.994px #0000000f, 0px 6.08298px 105.29px #00000011, 0px 2.76054px 56.3879px #00000012;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #fbf8f880;
+  width: 100%;
+  padding: 64px;
+  color: #253b51;
+}
+
+.container input,
+.container select {
+  width: 300px;
+  height: 30px;
+}
+
+.container legend {
+  border-radius: 0;
+  border-bottom: 1px solid #5f5f64;
+  max-height: 50px;
+  color: #293241;
+}
+
+.container input[type="checkbox"] {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.w-100 input {
+  width: 622px;
+}
+
+.mentorship .input {
+  width: 300px;
+}
+
+.mentorship input {
+  width: 140px;
+}
+/*# sourceMappingURL=style.css.map */
