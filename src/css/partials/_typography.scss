@@ -1,0 +1,38 @@
+/* Typography */
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 45px;
+    color: $text-main;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-main;
+}
+
+legend {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: $text-fieldset;
+}
+
+label {
+    font-size: 14px;
+    line-height: 24px;
+
+    color: $text-label;
+}
