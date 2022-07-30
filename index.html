@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="src/image/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Avalie a sua mentoria</title>
+</head>
+
+<body>
+    <header class="flex flex-column flex-center">
+        <h1 class="uppercase">Avalie a sua mentoria</h1>
+        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+        <div>
+            <span>
+                <img src="src/svg/star-unchecked.svg"
+                    alt="Estrela mostrando a nota de avaliação que se deseja dar (nota 1)" class="star">
+            </span>
+            <span>
+                <img src="src/svg/star-unchecked.svg"
+                    alt="Estrela mostrando a nota de avaliação que se deseja dar (nota 2)" class="star">
+            </span>
+            <span>
+                <img src="src/svg/star-unchecked.svg"
+                    alt="Estrela mostrando a nota de avaliação que se deseja dar (nota 3)" class="star">
+            </span>
+            <span>
+                <img src="src/svg/star-unchecked.svg"
+                    alt="Estrela mostrando a nota de avaliação que se deseja dar (nota 4)" class="star">
+            </span>
+            <span>
+                <img src="src/svg/star-unchecked.svg"
+                    alt="Estrela mostrando a nota de avaliação que se deseja dar (nota 5)" class="star">
+            </span>
+        </div>
+    </header>
+    <main>
+        <form>
+            <fieldset class="m-center">
+                <legend class="uppercase flex flex-center text-main emphasis">
+                    Informações pessoais
+                </legend>
+                <div class="container">
+                    <div class="flex flex-center gap">
+                        <div class="flex flex-column">
+                            <label for="name" class="p-t1">Nome</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="flex flex-column">
+                            <label for="last-name" class="p-t1">Sobrenome</label>
+                            <input type="text" id="last-name">
+                        </div>
+                    </div>
+                    <div class="flex flex-center gap w-100">
+                        <div class="flex flex-column">
+                            <label for="email" class="p-t1">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                    </div>
+                    <legend class="uppercase flex flex-center text-main">
+                        Informações do mentor
+                    </legend>
+                    <div class="flex flex-column p-t2 p-t3">
+                        <label for="mentor" class="p-t1">Selecione quem foi o seu mentor</label>
+                        <select id="mentor">
+                            <option value="Mayk Brito">Mayk Brito</option>
+                            <option value="Jake Gracielly">Jake Gracielly</option>
+                            <option value="Rodrigo Gonçalves">Rodrigo Gonçalves</option>
+                            <option value="Diego Fernandes">Diego Fernandes</option>
+                            <option value="Daniele Evangelista">Daniele Evangelista</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-column p-t2">
+                        <label for="text" class="p-t1">Feedback sobre o mentor</label>
+                        <textarea id="text"></textarea>
+                    </div>
+                    <div class="flex p-t2 gap">
+                        <input type="checkbox" name="" id="checkbox">
+                        <label for="checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                    </div>
+                    <legend class="uppercase flex flex-center text-main p-t1">
+                        Agendando próxima mentoria
+                    </legend>
+                    <div class="flex flex-center gap mentorship p-t3">
+                        <div class="flex flex-column">
+                            <label for="date">Nome</label>
+                            <input class="input p-t1" type="date" id="date">
+                        </div>
+                        <div class="flex flex-column">
+                            <label for="das">Das</label>
+                            <input type="time" class="p-1" id="das">
+                        </div>
+                        <div class="flex flex-column">
+                            <label for="ate">Até</label>
+                            <input type="time" id="ate" class="p-1">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
